@@ -1,0 +1,30 @@
+.rolecontent {
+    /* color: darkslateblue; */
+    /* color: indigo; */
+    /* color: cornflowerblue; */
+    /* color: darkred; */
+    /* color: firebrick; */
+    /* color: rebeccapurple; */
+    color: purple;
+}
+
+.rolecontent {
+  color: slateblue;
+  padding: 40px;
+  font-family: Arial;
+  text-align: center;
+}
+
+.rolename {
+    color: white;
+}
+
+.lead {
+    color: white;
+    text-align: left;
+    padding-top: 1em;
+}
+
+#contact .section-head  {
+    margin-top: -24px;
+}
