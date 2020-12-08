@@ -68,3 +68,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Prettier CheatSheet
+
+```bash
+    # install prettier
+    yarn add --dev --exact prettier
+
+    # format all files using Prettier
+    yarn prettier --write .
+```
