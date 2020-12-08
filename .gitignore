@@ -241,6 +241,7 @@ appsettings.*.json
 **/*/.env.*
 package-lock.json
 yarn-error.log
+static/**/*
 
 public/js
 
