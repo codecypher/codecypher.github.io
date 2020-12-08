@@ -4,8 +4,12 @@
 
   How to CSS Style in React
   https://www.robinwieruch.de/react-css-styling#css-in-css-css-modules-in-react
+
+  Prettier
+  yarn prettier --check .
+  yarn prettier --write .
  */
-import logo from './logo.svg'
+// import logo from './logo.svg'
 import './App.css'
 
 import React, { Component } from 'react'
@@ -23,9 +27,9 @@ class App extends Component {
     render() {
         return (
             <div className="App">
-                {/* <Header resumeData={resumeData} /> */}
+                <Header resumeData={resumeData} />
                 <About resumeData={resumeData} />
-                <Resume resumeData={resumeData} />
+                {/* <Resume resumeData={resumeData} /> */}
                 {/* <Portfolio /> */}
                 {/*<ContactMe resumeData={resumeData} />*/}
                 {/*<Footer />*/}

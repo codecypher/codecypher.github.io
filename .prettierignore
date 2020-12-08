@@ -1,7 +1,22 @@
-node_modules/
-generated/
-lib/
-dist/
+## root folders
+/css/
+/js/
 /site/
+/static/
+
+dist/
+generated/
+images/
+lib/
+node_modules/
+
+
+## file types
 *.scss
+
+## specific files
+_config.yml
+asset-manifest.json
+index.html
+manifest.json
 init.js
