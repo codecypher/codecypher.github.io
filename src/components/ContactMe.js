@@ -1,5 +1,5 @@
 import { Component, Fragment } from 'react'
-import '../styles/default.css'
+// import '../styles/default.css'
 
 export class ContactMe extends Component {
     render() {

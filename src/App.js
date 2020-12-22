@@ -1,4 +1,7 @@
 /*
+  GitHub React Porfolio
+  https://codecypher.github.io/
+
   Create a developer portfolio using react.js
   https://medium.com/technoetics/create-a-developer-portfolio-using-reactjs-d34ea1bfb18e
 
@@ -8,7 +11,7 @@
   Prettier
   yarn prettier --check .
   yarn prettier --write .
- */
+*/
 // import logo from './logo.svg'
 import './App.css'
 
@@ -29,8 +32,8 @@ class App extends Component {
             <div className="App">
                 <Header resumeData={resumeData} />
                 <About resumeData={resumeData} />
-                {/* <Resume resumeData={resumeData} /> */}
-                {/* <Portfolio /> */}
+                <Resume resumeData={resumeData} />
+                <Portfolio />
                 {/*<ContactMe resumeData={resumeData} />*/}
                 {/*<Footer />*/}
             </div>

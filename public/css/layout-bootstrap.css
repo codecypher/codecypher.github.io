@@ -126,9 +126,9 @@ body {
 */
 
 
-/*
+/*--------------------------------------
   About Section
-*/
+ --------------------------------------*/
 
 #about {
     background: #2b2b2b;
@@ -184,14 +184,10 @@ body {
 
 
 #about .rolecontent {
-    color: purple;
-}
-
-#about .rolecontent {
     color: slateblue;
     font-family: Arial;
     font-size: 1.5em;
-    text-align: center;
+    text-align: left;
 }
 
 #about .rolename {
@@ -201,4 +197,100 @@ body {
 #about .lead {
     color: white;
     text-align: left;
+}
+
+
+
+/*--------------------------------------
+  Resume Section
+ --------------------------------------*/
+
+#resume {
+    background: #fff;
+    padding-top: 90px;
+    padding-bottom: 72px;
+    overflow: hidden;
+}
+
+#resume a,
+#resume a:visited {
+    color: #11abb0;
+}
+#resume a:hover,
+#resume a:focus {
+    color: #313131;
+}
+
+#resume h1 {
+    font: 18px/24px 'opensans-bold', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+#resume h1 span {
+    border-bottom: 3px solid #11abb0;
+    padding-bottom: 6px;
+}
+#resume h3 {
+    font: 25px/30px 'opensans-bold', sans-serif;
+}
+
+#resume p {
+    text-align: left;
+}
+
+#resume .header-col {
+    padding-top: 9px;
+}
+#resume .main-col {
+    padding-right: 10%;
+}
+
+#resume .education,
+#resume .work {
+    margin-bottom: 48px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #e8e8e8;
+}
+#resume .info {
+    font: 16px/24px 'librebaskerville-italic', serif;
+    color: #6e7881;
+    margin-bottom: 18px;
+    margin-top: 9px;
+    text-align: center;
+}
+#resume .info span {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+#resume .date {
+    font: 15px/24px 'opensans-regular', sans-serif;
+    margin-top: 6px;
+}
+#resume .skill {
+    font-weight: bold;
+    margin-bottom: 0.25em;
+}
+
+
+/*--------------------------------------
+  Portfolio Section
+ --------------------------------------*/
+
+#portfolio {
+    background: #ebeeee;
+    padding-top: 2em;
+    padding-bottom: 4em;
+}
+#portfolio h1 {
+    font: 15px/24px 'opensans-semibold', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 2em;
+    color: #95a3a3;
+}
+
+#portfolio .card img {
+    display: block;
+    cursor: grab;
 }
