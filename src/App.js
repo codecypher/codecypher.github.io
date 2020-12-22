@@ -21,8 +21,8 @@ import { About } from './components/About'
 import { Resume } from './components/Resume'
 import { Portfolio } from './components/Portfolio'
 // import { Testimonials } from "./components/Testimonials";
-import { ContactMe } from './components/ContactMe'
-import { Footer } from './components/Footer'
+// import { ContactMe } from './components/ContactMe'
+// import { Footer } from './components/Footer'
 
 import resumeData from './js/resumeData'
 
