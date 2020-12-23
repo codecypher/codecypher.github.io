@@ -1,4 +1,5 @@
 import { Component, Fragment } from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export class About extends Component {
     render() {
@@ -32,6 +33,7 @@ export class About extends Component {
                                     <p className="address">
                                         <span>{resumeData.name}</span>
                                         <br />
+                                        {/*
                                         <span>
                                             {resumeData.address}
                                             <br />
@@ -40,14 +42,14 @@ export class About extends Component {
                                             US
                                         </span>
                                         <br />
+                                        */}
                                         <span>{resumeData.email}</span>
                                     </p>
                                 </div>
                                 <div className="col pt-5 download">
                                     <p>
-                                        <a href="#" className="p-2 mr-3 button">
-                                            <i className="fa fa-download" />
-                                            Download Resume
+                                        <a href="#" className="button">
+                                            <FontAwesomeIcon icon="download" className="fa-lg pr-1" />Download Resume
                                         </a>
                                     </p>
                                 </div>

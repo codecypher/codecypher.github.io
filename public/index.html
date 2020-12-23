@@ -9,10 +9,10 @@
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        <meta property="og:title" content="">
-        <meta property="og:type" content="">
-        <meta property="og:url" content="">
-        <meta property="og:image" content="">
+        <meta property="og:title" content="" />
+        <meta property="og:type" content="" />
+        <meta property="og:url" content="" />
+        <meta property="og:image" content="" />
 
         <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
         <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
@@ -31,12 +31,15 @@
             integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK"
             crossorigin="anonymous"
         />
+        <!--
         <link
             rel="stylesheet"
             href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
             integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
             crossorigin="anonymous"
-        >
+        />
+        -->
+
         <!-- Google Fonts -->
         <link
             rel="stylesheet"
@@ -114,16 +117,34 @@
                 </div>
             </div>
             <div class="navbar navbar-dark bg-dark shadow-sm">
-                <div class="container">
+                <div class="container d-flex justify-content-between">
                     <a href="#" class="navbar-brand d-flex align-items-center">
-                        <img src="./logo192.png" width="32" height="32" />
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="20"
+                            height="20"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            aria-hidden="true"
+                            class="mr-2"
+                            viewBox="0 0 24 24"
+                            focusable="false"
+                        >
+                            <path
+                                d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"
+                            />
+                            <circle cx="12" cy="13" r="4" />
+                        </svg>
                         <strong>Album</strong>
                     </a>
                     <button
                         class="navbar-toggler"
                         type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#navbarHeader"
+                        data-toggle="collapse"
+                        data-target="#navbarHeader"
                         aria-controls="navbarHeader"
                         aria-expanded="false"
                         aria-label="Toggle navigation"
@@ -142,16 +163,15 @@
                 <p class="float-end mb-1">
                     <a href="#">Back to top</a>
                 </p>
-                <p class="mb-1">
-                    Jeff Holmes &copy; 2020
-                </p>
+                <p class="mb-1">Jeff Holmes &copy; 2020</p>
                 <!-- <p class="mb-0">
                 </p> -->
             </div>
         </footer>
         <script
             src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"
-            integrity="sha512-3n19xznO0ubPpSwYCRRBgHh63DrV+bdZfHK52b1esvId4GsfwStQNPJFjeQos2h3JwCmZl0/LgLxSKMAI55hgw==" crossorigin="anonymous"
+            integrity="sha512-3n19xznO0ubPpSwYCRRBgHh63DrV+bdZfHK52b1esvId4GsfwStQNPJFjeQos2h3JwCmZl0/LgLxSKMAI55hgw=="
+            crossorigin="anonymous"
         ></script>
         <script
             src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js"

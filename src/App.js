@@ -16,6 +16,11 @@
 import './App.css'
 
 import React, { Component } from 'react'
+
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+import { faDownload } from '@fortawesome/free-solid-svg-icons'
+
 import { Header } from './components/Header'
 import { About } from './components/About'
 import { Resume } from './components/Resume'
@@ -40,4 +45,7 @@ class App extends Component {
         )
     }
 }
+
+library.add(fab, faDownload)
+
 export default App
