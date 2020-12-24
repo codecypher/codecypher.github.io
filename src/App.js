@@ -1,4 +1,7 @@
 /*
+  App.js
+  This is the main react component for the applcation.
+
   GitHub React Porfolio
   https://codecypher.github.io/
 
@@ -12,14 +15,19 @@
   yarn prettier --check .
   yarn prettier --write .
 */
-// import logo from './logo.svg'
 import './App.css'
+// import logo from 'images/logo192.png'
 
 import React, { Component } from 'react'
 
+// import { Tooltip, Toast, Popover } from 'bootstrap';
+
+import 'bootstrap/dist/js/bootstrap.min.js';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
-import { faDownload } from '@fortawesome/free-solid-svg-icons'
+import { faDownload, faRadiationAlt } from '@fortawesome/free-solid-svg-icons'
 
 import { Header } from './components/Header'
 import { About } from './components/About'
@@ -46,6 +54,6 @@ class App extends Component {
     }
 }
 
-library.add(fab, faDownload)
+library.add(fab, faDownload, faRadiationAlt)
 
 export default App

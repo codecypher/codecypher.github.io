@@ -2,15 +2,15 @@
   Layout Stylesheet
 
   TOC:
-  a. General Styles
-  b. Header Styles
-  c. About Section
-  d. Resume Section
-  e. Portfolio Section
-  f. Call To Action Section
-  g. Testimonials Section
-  h. Contact Section
-  i. Footer
+  - General Styles
+  - Header Styles
+  - About Section
+  - Resume Section
+  - Portfolio Section
+  - Call To Action Section
+  - Testimonials Section
+  - Contact Section
+  - Footer
 */
 
 /*
@@ -21,9 +21,23 @@ body {
     background: #0f0f0f;
 }
 
+/* Perfect Centering */
+.flex-container {
+  display: flex;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+}
+
+
 /*
   Header Styles
  */
+
+ header .logo {
+     height: 2em;
+     padding-right: 4px;
+ }
 
 .header-banner {
     position: relative;
@@ -100,6 +114,7 @@ body {
 .header-banner .social li a:hover {
     color: #11abb0;
 }
+
 
 /* scrolldown link
 .header-banner .scrolldown a {

@@ -1,12 +1,16 @@
 {
-    "name": "resume",
-    "version": "0.1.0",
-    "private": true,
+    "name": "github-resume",
+    "version": "0.2.0",
     "license": "MIT",
+    "private": true,
+    "author": {
+        "name": "Jeff Holmes",
+        "email": "jeff@jeffholmes.ai",
+        "url": "https://blog.cogentcoder.com/"
+    },
+    "homepage": "https://github.com/codecypher/codecypher.github.io",
     "dependencies": {
-        "@testing-library/jest-dom": "^5.11.4",
-        "@testing-library/react": "^11.1.0",
-        "@testing-library/user-event": "^12.1.10",
+        "bootstrap": "^5.0.0-beta1",
         "react": "^17.0.1",
         "react-dom": "^17.0.1",
         "react-scripts": "4.0.1",
@@ -42,8 +46,7 @@
         "@fortawesome/free-regular-svg-icons": "^5.15.1",
         "@fortawesome/free-solid-svg-icons": "^5.15.1",
         "@fortawesome/react-fontawesome": "^0.1.14",
-        "jquery": "^3.5.1",
-        "popper.js": "^1.16.1",
+        "@popperjs/core": "^2.6.0",
         "prettier": "2.2.1"
     }
 }

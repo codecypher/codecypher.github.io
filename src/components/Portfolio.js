@@ -1,4 +1,12 @@
+/*
+  Portfolio.js
+  This react component displays a gallery of software projects.
+*/
 import { Component } from 'react'
+import img1 from "../images/portfolio/coffee.jpg"
+import img2 from "../images/portfolio/console.jpg"
+import img3 from "../images/portfolio/origami.jpg"
+import img4 from "../images/portfolio/retrocam.jpg"
 
 export class Portfolio extends Component {
     render() {
@@ -9,13 +17,13 @@ export class Portfolio extends Component {
                     <h1>Here are some of my software projects</h1>
                     <div class="album py-5 bg-light">
                         <div class="container">
-                            <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 g-3">
+                            <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-3">
                                 <div class="col">
                                     <div class="card shadow-sm">
                                         <a href="https://github.com/codecypher/Yahboom_Tank_Code">
                                             <img
                                                 alt=""
-                                                src="images/portfolio/coffee.jpg"
+                                                src={img1}
                                                 class="bd-placeholder-img card-img-top"
                                                 width="100%"
                                                 height="300"
@@ -42,7 +50,7 @@ export class Portfolio extends Component {
                                     <div class="card shadow-sm">
                                         <img
                                             alt=""
-                                            src="images/portfolio/console.jpg"
+                                            src={img2}
                                             class="bd-placeholder-img card-img-top"
                                             width="100%"
                                             height="300"
@@ -67,7 +75,7 @@ export class Portfolio extends Component {
                                     <div class="card shadow-sm">
                                         <img
                                             alt=""
-                                            src="images/portfolio/origami.jpg"
+                                            src={img3}
                                             class="bd-placeholder-img card-img-top"
                                             width="100%"
                                             height="300"
@@ -92,7 +100,7 @@ export class Portfolio extends Component {
                                     <div class="card shadow-sm">
                                         <img
                                             alt=""
-                                            src="images/portfolio/retrocam.jpg"
+                                            src={img4}
                                             class="bd-placeholder-img card-img-top"
                                             width="100%"
                                             height="300"

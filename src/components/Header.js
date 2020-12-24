@@ -1,4 +1,9 @@
+/*
+  Header.js
+  This react component displays the main banner.
+ */
 import { Component, Fragment } from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export class Header extends Component {
     render() {
@@ -16,37 +21,37 @@ export class Header extends Component {
                             <ul className="social">
                                 <li>
                                     <a href="#">
-                                        <i className="fa fa-facebook" />
+                                        <FontAwesomeIcon icon={["fab", "facebook"]} />
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <i className="fa fa-twitter" />
+                                        <FontAwesomeIcon icon={["fab", "twitter"]} />
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <i className="fa fa-google-plus" />
+                                        <FontAwesomeIcon icon={["fab", "google-plus"]} />
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <i className="fa fa-linkedin" />
+                                        <FontAwesomeIcon icon={["fab", "linkedin"]} />
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <i className="fa fa-instagram" />
+                                        <FontAwesomeIcon icon={["fab", "instagram"]} />
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <i className="fa fa-dribbble" />
+                                        <FontAwesomeIcon icon={["fab", "dribbble"]} />
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <i className="fa fa-skype" />
+                                        <FontAwesomeIcon icon={["fab", "skype"]} />
                                     </a>
                                 </li>
                             </ul>

@@ -1,5 +1,10 @@
+/*
+  About.js
+  This react component displays summary info about me.
+ */
 import { Component, Fragment } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import img from "../images/profilepic.jpg"
 
 export class About extends Component {
     render() {
@@ -13,8 +18,8 @@ export class About extends Component {
                         <div className="col">
                             <img
                                 className="profile-pic"
-                                src="images/profilepic.jpg"
-                                alt=""
+                                src={img}
+                                alt="profile-pic"
                             />
                         </div>
                         <div className="col-6">
@@ -49,7 +54,7 @@ export class About extends Component {
                                 <div className="col pt-5 download">
                                     <p>
                                         <a href="#" className="button">
-                                            <FontAwesomeIcon icon="download" className="fa-lg pr-1" />Download Resume
+                                            <FontAwesomeIcon icon="download" className="fa-md fa-fw" />Download Resume
                                         </a>
                                     </p>
                                 </div>

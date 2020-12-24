@@ -1,3 +1,7 @@
+/*
+  Footer.js
+  This react component is the page footer (may be used later).
+ */
 import { Component } from 'react'
 
 export class Footer extends Component {

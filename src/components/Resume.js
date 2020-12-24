@@ -1,3 +1,7 @@
+/*
+  Resume.js
+  This react component displays the resume.
+ */
 import { Component, Fragment } from 'react'
 
 export class Resume extends Component {

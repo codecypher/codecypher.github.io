@@ -1,5 +1,8 @@
+/*
+  ContactMe.js
+  This file may be used later.
+ */
 import { Component, Fragment } from 'react'
-// import '../styles/default.css'
 
 export class ContactMe extends Component {
     render() {

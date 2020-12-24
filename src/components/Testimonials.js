@@ -1,3 +1,7 @@
+/*
+  Testimonials.js
+  This file may be used later.
+ */
 import { Component } from 'react'
 
 export class Testimonials extends Component {
