@@ -1,5 +1,5 @@
 {
-    "name": "github-resume",
+    "name": "jholmes-resume",
     "version": "0.2.0",
     "license": "MIT",
     "private": true,
@@ -8,7 +8,6 @@
         "email": "jeff@jeffholmes.ai",
         "url": "https://blog.cogentcoder.com/"
     },
-    "homepage": "https://github.com/codecypher/codecypher.github.io",
     "dependencies": {
         "bootstrap": "^5.0.0-beta1",
         "react": "^17.0.1",
