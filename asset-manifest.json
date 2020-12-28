@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.b18be1c1.chunk.css",
-    "main.js": "/static/js/main.d1f1da0b.chunk.js",
-    "main.js.map": "/static/js/main.d1f1da0b.chunk.js.map",
+    "main.js": "/static/js/main.8fe596e4.chunk.js",
+    "main.js.map": "/static/js/main.8fe596e4.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9ce6cf98.js",
     "runtime-main.js.map": "/static/js/runtime-main.9ce6cf98.js.map",
     "static/css/2.81057f45.chunk.css": "/static/css/2.81057f45.chunk.css",
@@ -12,16 +12,17 @@
     "static/css/2.81057f45.chunk.css.map": "/static/css/2.81057f45.chunk.css.map",
     "static/css/main.b18be1c1.chunk.css.map": "/static/css/main.b18be1c1.chunk.css.map",
     "static/js/2.0d9ec21d.chunk.js.LICENSE.txt": "/static/js/2.0d9ec21d.chunk.js.LICENSE.txt",
-    "static/media/coffee.9b43dffa.jpg": "/static/media/coffee.9b43dffa.jpg",
-    "static/media/console.01369baa.jpg": "/static/media/console.01369baa.jpg",
-    "static/media/origami.cf02f8be.jpg": "/static/media/origami.cf02f8be.jpg",
-    "static/media/retrocam.bf35a700.jpg": "/static/media/retrocam.bf35a700.jpg"
+    "static/media/G1-Tank.20f74401.png": "/static/media/G1-Tank.20f74401.png",
+    "static/media/neuron-network.28d34ed4.jpg": "/static/media/neuron-network.28d34ed4.jpg",
+    "static/media/nlp.4fe1968a.jpg": "/static/media/nlp.4fe1968a.jpg",
+    "static/media/react-redux.cc2e6461.jpg": "/static/media/react-redux.cc2e6461.jpg",
+    "static/media/xamarin.aaccd1ad.jpg": "/static/media/xamarin.aaccd1ad.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.9ce6cf98.js",
     "static/css/2.81057f45.chunk.css",
     "static/js/2.0d9ec21d.chunk.js",
     "static/css/main.b18be1c1.chunk.css",
-    "static/js/main.d1f1da0b.chunk.js"
+    "static/js/main.8fe596e4.chunk.js"
   ]
 }
