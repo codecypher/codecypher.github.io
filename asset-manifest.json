@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.b18be1c1.chunk.css",
-    "main.js": "/static/js/main.3e92e6c5.chunk.js",
-    "main.js.map": "/static/js/main.3e92e6c5.chunk.js.map",
+    "main.js": "/static/js/main.44695b05.chunk.js",
+    "main.js.map": "/static/js/main.44695b05.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9ce6cf98.js",
     "runtime-main.js.map": "/static/js/runtime-main.9ce6cf98.js.map",
     "static/css/2.81057f45.chunk.css": "/static/css/2.81057f45.chunk.css",
-    "static/js/2.9bcd4a20.chunk.js": "/static/js/2.9bcd4a20.chunk.js",
-    "static/js/2.9bcd4a20.chunk.js.map": "/static/js/2.9bcd4a20.chunk.js.map",
+    "static/js/2.46243cad.chunk.js": "/static/js/2.46243cad.chunk.js",
+    "static/js/2.46243cad.chunk.js.map": "/static/js/2.46243cad.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.81057f45.chunk.css.map": "/static/css/2.81057f45.chunk.css.map",
     "static/css/main.b18be1c1.chunk.css.map": "/static/css/main.b18be1c1.chunk.css.map",
-    "static/js/2.9bcd4a20.chunk.js.LICENSE.txt": "/static/js/2.9bcd4a20.chunk.js.LICENSE.txt",
+    "static/js/2.46243cad.chunk.js.LICENSE.txt": "/static/js/2.46243cad.chunk.js.LICENSE.txt",
     "static/media/G1-Tank.20f74401.png": "/static/media/G1-Tank.20f74401.png",
     "static/media/neuron-network.28d34ed4.jpg": "/static/media/neuron-network.28d34ed4.jpg",
     "static/media/nlp.4fe1968a.jpg": "/static/media/nlp.4fe1968a.jpg",
@@ -21,8 +21,8 @@
   "entrypoints": [
     "static/js/runtime-main.9ce6cf98.js",
     "static/css/2.81057f45.chunk.css",
-    "static/js/2.9bcd4a20.chunk.js",
+    "static/js/2.46243cad.chunk.js",
     "static/css/main.b18be1c1.chunk.css",
-    "static/js/main.3e92e6c5.chunk.js"
+    "static/js/main.44695b05.chunk.js"
   ]
 }
