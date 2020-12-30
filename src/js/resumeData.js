@@ -8,7 +8,7 @@ let resumeData = {
     email: 'jeff@jeffholmes.ai',
     role: 'AI Software Engineer',
     roleDescription:
-        'creating awesome web and software applictions for companies of all sizes.'
+        'creating awesome web and software applications for companies of all sizes.'
 }
 
 export default resumeData

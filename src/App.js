@@ -27,7 +27,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
-import { faDownload, faRadiationAlt } from '@fortawesome/free-solid-svg-icons'
+import { fas } from '@fortawesome/free-solid-svg-icons'
 
 import { Header } from './components/Header'
 import { About } from './components/About'
@@ -54,6 +54,6 @@ class App extends Component {
     }
 }
 
-library.add(fab, faDownload, faRadiationAlt)
+library.add(fab, fas)
 
 export default App

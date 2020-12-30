@@ -36,8 +36,8 @@ export class Resume extends Component {
                                     </p>
                                     <p>
                                         I am able to apply artificial
-                                        intelligence (AI), machine learning, and
-                                        software engineering techniques and
+                                        intelligence (AI), machine learning, robotics,
+                                        and software engineering techniques and
                                         methodology to improve the performance
                                         of computer-based systems and create
                                         experience-based models for solving
@@ -59,19 +59,6 @@ export class Resume extends Component {
                                             <li>
                                                 Distributed Computing Systems
                                             </li>
-                                        </ul>
-                                    </p>
-                                    <p>
-                                        I am interested in the following career
-                                        roles:
-                                        <ul>
-                                            <li>
-                                                Artificial Intelligence Engineer
-                                            </li>
-                                            <li>Machine Learning Engineer</li>
-                                            <li>Mobile Software Engineer</li>
-                                            <li>Lead Software Engineer</li>
-                                            <li>Research Scientist</li>
                                         </ul>
                                     </p>
                                 </div>
@@ -134,12 +121,12 @@ export class Resume extends Component {
                                         PHP
                                     </p>
                                     <p className="skill">
-                                        Machine Learning Tools
+                                        AI Tools
                                     </p>
                                     <p>
-                                        HPython, NumPy, Pandas, Matplotlib,
-                                        Plotly, scikit-learn, Tensorflow/Keras,
-                                        OpenAI Gym
+                                        Anaconda, Python, SciPy, Plotly, scikit-learn,
+                                        Tensorflow, Keras, OpenAI, OpenCV, OpenCL,
+                                        NLTK, and more
                                     </p>
                                     <p className="skill">HTML/CSS</p>
                                     <p>HTML5/CSS3/LESS/SASS, Bootstrap</p>
