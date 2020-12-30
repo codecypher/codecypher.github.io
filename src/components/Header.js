@@ -18,6 +18,7 @@ export class Header extends Component {
                                 Hello, I am {resumeData.name}
                             </h1>
                             <hr />
+                            {/*
                             <ul className="social">
                                 <li>
                                     <a href="#">
@@ -55,6 +56,7 @@ export class Header extends Component {
                                     </a>
                                 </li>
                             </ul>
+                            */}
                         </div>
                     </div>
                     <p className="scrolldown">

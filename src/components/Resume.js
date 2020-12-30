@@ -46,21 +46,27 @@ export class Resume extends Component {
                                         sensor measurements or environmental
                                         signals.
                                     </p>
-                                    <p>
-                                        Related Courses:
-                                        <ul>
-                                            <li>
-                                                Statistical Programming (Python)
-                                            </li>
-                                            <li>Machine Learning</li>
-                                            <li>Artificial Intelligence 1/2</li>
-                                            <li>Natural Language Processing</li>
-                                            <li>Robotics</li>
-                                            <li>
-                                                Distributed Computing Systems
-                                            </li>
-                                        </ul>
-                                    </p>
+                                    <p>Related Courses:</p>
+                                    <div className="row career-list text-start">
+                                        <div className="col-sm-6 col-lg-4">
+                                            <ul>
+                                                <li>Artificial Intelligence 1/2</li>
+                                                <li>Machine Learning</li>
+                                                <li>Robotics</li>
+                                            </ul>
+                                        </div>
+                                        <div className="col-sm-6 col-lg-8">
+                                            <ul>
+                                                <li>Natural Language Processing</li>
+                                                <li>
+                                                    Distributed Computing Systems
+                                                </li>
+                                                <li>
+                                                    Statistical Programming (Python)
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <div className="row item">
@@ -75,7 +81,7 @@ export class Resume extends Component {
                                         <span>GPA: 3.93/4.0</span>
                                     </p>
                                     <p>
-                                        I have experience and knowledge in
+                                        I have knowledge and experience in
                                         applying mathematical models and
                                         techniques in applied mathematics
                                         including linear algebra, numerical
