@@ -41,7 +41,7 @@ export class Portfolio extends Component {
                                             <p class="card-text">
                                                 This <a href="https://github.com/codecypher/Yahboom_Tank_Code">repo</a>
                                                 &nbsp;contains code for
-                                                my Robotics course project
+                                                Robotics course project
                                                 using Raspberry Pi 4 and Coral USB Accelerator.
                                             </p>
                                         </div>
@@ -66,7 +66,7 @@ export class Portfolio extends Component {
                                         <div class="card-body">
                                             <p class="card-text">
                                                 This <a href="https://github.com/codecypher/cifar">repo</a>
-                                                &nbsp;containes code for my AI course roject
+                                                &nbsp;containes code for AI course project
                                                 using the <a href="https://keras.io/">Keras</a> API
                                                 to implement artificial neural
                                                 networks (ANNs) for the &nbsp;
@@ -94,7 +94,7 @@ export class Portfolio extends Component {
                                         <div class="card-body">
                                             <p class="card-text">
                                                 This <a href="https://github.com/codecypher/nlp-tagger-split">repo</a>
-                                                &nbsp;contains code for my NLP course
+                                                &nbsp;contains code for NLP course
                                                 project on categorizing and tagging words
                                                 using the Brown Corpus.
                                             </p>
@@ -146,8 +146,8 @@ export class Portfolio extends Component {
                                         <div class="card-body">
                                             <p class="card-text pb-4">
                                                 This <a href="https://github.com/codecypher/react-todo">repo</a>
-                                                &nbsp;contains code for a simple todo app using
-                                                React-Redux and React Hooks.
+                                                &nbsp;contains code for a simple todo app
+                                                using React-Redux and React Hooks.
                                             </p>
                                         </div>
                                     </div>
