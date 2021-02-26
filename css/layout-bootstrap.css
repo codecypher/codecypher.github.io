@@ -224,9 +224,9 @@ body {
  --------------------------------------*/
 
 #resume {
-    background: #fff;
-    padding-top: 90px;
-    padding-bottom: 72px;
+    background: gainsboro;
+    padding-top: 4em;
+    padding-bottom: 1em;
     overflow: hidden;
 }
 
@@ -295,20 +295,36 @@ body {
  --------------------------------------*/
 
 #portfolio {
-    background: #ebeeee;
-    padding-top: 2em;
-    padding-bottom: 4em;
+    background: gainsboro;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
 }
 #portfolio h1 {
-    font: 15px/24px 'opensans-semibold', sans-serif;
+    font: 25px/30px 'opensans-semibold', sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
     text-align: center;
-    margin-bottom: 2em;
-    color: #95a3a3;
+    margin-top: 0.1em;
+    margin-bottom: 0;
+    color: #000;
 }
-
+#portfolio .album {
+    background: gainsboro !important;
+    margin-top: 0.25em;
+    margin-bottom: 0;
+}
+#portfolio .album .container {
+}
+#portfolio .card  {
+    background: gainsboro;
+}
 #portfolio .card img {
     display: block;
     cursor: grab;
+}
+
+footer {
+    background: gainsboro;
 }

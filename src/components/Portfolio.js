@@ -14,9 +14,9 @@ export class Portfolio extends Component {
     render() {
         return (
             /* Portfolio */
-            <section id="portfolio" className="text-center container-fluid">
+            <section id="portfolio" className="text-center">
                 <div className="row">
-                    <h1>Here are some of my software projects</h1>
+                    <h1>my software projects</h1>
                     <div class="album py-5 bg-light">
                         <div class="container">
                             <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-3">
