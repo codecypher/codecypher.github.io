@@ -4,7 +4,7 @@
  */
 import { Component, Fragment } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import img from "../images/profilepic.jpg"
+import img from "../images/me.jpg"
 
 export class About extends Component {
     render() {
@@ -69,7 +69,6 @@ export class About extends Component {
                                 <div className="col pt-5 download">
                                     <p>
                                         <a href="#" className="button">
-                                            <FontAwesomeIcon icon={["fas", "mobile"]} />
                                             <FontAwesomeIcon icon={["fas", "download"]} className="fa-md fa-fw" />Download Resume
                                         </a>
                                     </p>
