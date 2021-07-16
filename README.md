@@ -1,6 +1,27 @@
 # Getting Started with Create React App
 
+<!-- MarkdownTOC -->
+
+- Available Scripts
+    - `yarn start`
+    - `yarn test`
+    - `yarn build`
+    - `yarn eject`
+- Learn More
+    - Code Splitting
+    - Analyzing the Bundle Size
+    - Making a Progressive Web App
+    - Advanced Configuration
+    - Deployment
+    - `yarn build` fails to minify
+- Prettier CheatSheet
+- References
+
+<!-- /MarkdownTOC -->
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 
 ## Available Scripts
 
@@ -69,6 +90,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
+----------
+
 ## Prettier CheatSheet
 
 ```bash
@@ -78,3 +101,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
     # format all files using Prettier
     yarn prettier --write .
 ```
+
+
+## References
+
+- [Ultimate Guide to Creating a Programmer Portfolio](https://www.springboard.com/blog/careersmithing/programmer-portfolio/)
+
+- [Create a developer portfolio using react.js](https://medium.com/technoetics/create-a-developer-portfolio-using-reactjs-d34ea1bfb18e)
+
+- [Bootstrap Portfolio & Resume Themes](https://startbootstrap.com/themes/portfolio-resume?showAngular=false&showPro=false)
